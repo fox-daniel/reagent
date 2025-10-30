@@ -3,7 +3,7 @@ AI middleware that gives fine grained control over how AI shapes your content
 
 Why *reagent*? According to Wikipedia, "In chemistry, a reagent...is a substance...added to a system to cause a chemical reaction..."
 
-Are you getting the reaction you want from your AI? We need better tools to get reactions.
+Are you getting the reaction you want from your AI? We need better tools to get better reactions.
 
 ## Problem Statement
 Have you ever encountered these problems when using an AI assistant?
