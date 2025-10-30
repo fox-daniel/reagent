@@ -13,18 +13,21 @@ control over how the AI reads and writes content. This can be achieved by dynami
 AI's view of it, the prompts that the AI receives, and the parts of it that it can edit or generate.
 
 ## Planned Features
-- mark content as immutable
+### Immutable Content
 - when generating new content these sections are guaranteed to remain constant
 - use cases
   - code tests
   - user supplied content 
   - AI generated content that is reviewed and deemed correct
-- context decoration
-  - be able to mark sections of content as context for the current prompt
-  - use: switch from using a function to the function signature as
-- Ignore
-  - be able to mark sections of content so that the LLM cannot see it but you can; allow this to be visually interleaved
-- Summaries
-  - mark content to have AI maintain an up to date summary of long content
-  - use case: shorten the context given to the model while still maintaining all necessary components
+### Context Declaration
+- dynamically update decorators to mark sections of content as context for the current prompt
+  - `@context` declares context
+  - `@ignore` makes content invisible to the AI, but still visible to you
+- use cases
+  - switch from using a function to the function signature as context
+  - use a generated summary as the context to represent a large body of content that would blow past your context window
+### Summarize
+- mark content to have AI maintain an up to date summary of long content
+- use cases
+  - shorten the context given to the model while still maintaining all necessary context at a high-level
   
