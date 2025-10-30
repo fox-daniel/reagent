@@ -34,4 +34,6 @@ AI's view of it, the prompts that the AI receives, and the parts of it that it c
 - mark content to have AI maintain an up to date summary of long content
 - use cases
   - shorten the context given to the model while still maintaining all necessary context at a high-level
-  
+
+## Implementation
+Create a [ROPE](https://en.wikipedia.org/wiki/Rope_(data_structure)) with the required annotations. Provide views of the ROPE to the existing AI assistants based on the user annotations. Some annotations may cause background calls to the AI assistant, such as `@summarize`.
