@@ -1,6 +1,10 @@
 # reagent
 AI middleware that gives fine grained control over how AI shapes your content
 
+Why "reagent"? According to Wikipedia, "In chemistry, a reagent...is a substance...added to a system to cause a chemical reaction, or test if one occurs."
+
+We need better AI tools to create better reactions.
+
 ## Problem Statement
 Have you ever encountered these problems when using an AI assistant?
 - Software: the coding assistant made the tests pass by leaving the disfunctional code and converting the tests into rubber stamps
